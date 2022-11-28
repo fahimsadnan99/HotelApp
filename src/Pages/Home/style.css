@@ -1,0 +1,45 @@
+.heroWrapper {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(0deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.6)), url("../../Assets/Hotel4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.heroWrapper .allElements {
+    position: absolute;
+    top: 35%;
+    left: 25%;
+    color: #fff;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.allElements .heroText1 {
+    font-size: 65px;
+}
+.allElements .heroText2 {
+    text-align: center;
+    font-size: 25px;
+}
+
+
+.heroBtn {
+    background-color: transparent;
+    border : 2px solid #fff;
+    padding : 10px 15px;
+    color : #fff;
+    font-size: 20px;
+    text-align: center;
+    transition: all 0.5s;
+   
+}
+
+.heroBtn:hover {
+    background-color: #fff;
+    color: rgb(179, 58, 58);
+    transition: all 0.5s;
+}
