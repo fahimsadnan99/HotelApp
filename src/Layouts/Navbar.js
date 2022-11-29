@@ -9,7 +9,9 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-md ">
  <NavLink className="navbar-brand brandName" to="/">EasyBook</NavLink>
   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span className="navbar-toggler-icon"></span>
+    <span className="navbar-toggler-icon">
+    <i class="fa fa-bars" aria-hidden="true"></i>
+    </span>
   </button>
   <div className="collapse navbar-collapse" id="navbarNav">
     <ul className="navbar-nav ml-auto">

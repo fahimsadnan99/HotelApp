@@ -1,6 +1,6 @@
 .heroWrapper {
     width: 100vw;
-    height: 100vh;
+    height: 95vh;
     background: linear-gradient(0deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.6)), url("../../Assets/Hotel4.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -8,33 +8,36 @@
     justify-content: center;
     align-items: center;
     position: relative;
+   
 }
 
 .heroWrapper .allElements {
     position: absolute;
     top: 35%;
-    left: 25%;
+    left: 20%;
     color: #fff;
     font-family: 'Chakra Petch', sans-serif;
 }
 
 .allElements .heroText1 {
-    font-size: 65px;
+    font-size: 5.5vw;
 }
 .allElements .heroText2 {
     text-align: center;
-    font-size: 25px;
+    font-size: 2.5vw;
 }
 
 
 .heroBtn {
     background-color: transparent;
     border : 2px solid #fff;
-    padding : 10px 15px;
+    padding : 5px 15px;
     color : #fff;
-    font-size: 20px;
+   
+    font-size: 1.8vw;
     text-align: center;
     transition: all 0.5s;
+    margin-top: 10vh;
    
 }
 
@@ -42,4 +45,32 @@
     background-color: #fff;
     color: rgb(179, 58, 58);
     transition: all 0.5s;
+}
+
+
+
+/* ----------------ROOM SEARCH SECTION -------- */
+
+ .roomSearchWrapper {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 0 auto;
+    border-radius: 40px;
+    width: 60%;
+    
+    font-family: 'Chakra Petch', sans-serif;
+    color: black;
+    border: 2px solid rgb(179, 58, 58);
+    margin-top: 110px !important;
+    text-align: center;
+    font-weight: 600 !important;
+}
+
+.srcBtn {
+    background-color: blueviolet;
+    padding : 10px 20px;
+    border-radius: 20px;
+    color: white;
+    border: none;
 }

@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@600&display=swap');
 .navbarWrapper {
-    background-color: rgba(187, 54, 54, 0);
+    background-color: rgba(187, 54, 54, 0.658);
     color: #fff;
     position: fixed;
     width: 100%;
@@ -23,20 +23,47 @@
 
 .nav-item .nav-link {
     color: #fff;
-    font-size: 18px;
-    font-weight: bold;
+    font-size: 1.5vw;
+    /* font-weight: bold; */
     font-family: 'Chakra Petch', sans-serif;
     margin-left: 5px;
     border-radius: 5px;
+    padding: 0 3px;
 }
 
 .activeNavbar {
     color: rgb(202, 69, 69) !important;
     background-color: rgb(255, 255, 255);
-    font-size: 18px;
-    font-weight: bold;
+    font-size: 1.8vw;
+    /* font-weight: bold; */
     font-family: 'Chakra Petch', sans-serif;
     margin-left: 5px;
     border-radius: 5px;
+   
     
+}
+.navbar-toggler-icon {
+    background-color: rgb(202, 69, 69);
+    color: #fff;
+    font-size: 24px;
+   
+    padding: 4px 2px;
+    border-radius: 5px;
+
+  
+}
+
+@media (max-width: 768px){
+    .nav-item .nav-link {
+        width: 40vw;
+        font-size: 3vw;
+    }
+}
+
+@media (max-width: 478px){
+    .nav-item .nav-link {
+       
+        font-size: 5vw;
+        width: 40vw;
+    }
 }
