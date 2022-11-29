@@ -1,6 +1,6 @@
 .heroWrapper {
     width: 100vw;
-    height: 95vh;
+    height: 100vh;
     background: linear-gradient(0deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.6)), url("../../Assets/Hotel4.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -51,26 +51,120 @@
 
 /* ----------------ROOM SEARCH SECTION -------- */
 
- .roomSearchWrapper {
+
+.roomSearchWrapper {
     background-color: rgb(255, 255, 255);
     text-align: center;
-    padding: 10px;
+    padding: 0.5vw;
     margin-bottom: 0 auto;
     border-radius: 40px;
-    width: 60%;
-    
+    width: 50vw;
+   
     font-family: 'Chakra Petch', sans-serif;
     color: black;
     border: 2px solid rgb(179, 58, 58);
-    margin-top: 110px !important;
+    
     text-align: center;
     font-weight: 600 !important;
+    
+    box-shadow: 0px 2px 10px  black;
+    margin: 30px auto;
+  
+    
+    
+}
+
+.srcName {
+    font-size: 1.3vw;
 }
 
 .srcBtn {
     background-color: blueviolet;
-    padding : 10px 20px;
+   
+    width: 50px;
+    height: 30px;
     border-radius: 20px;
     color: white;
     border: none;
+    font-size : 1.5vw;
+    margin-left: 1vw;
+    margin-top: 5px;
+    
+}
+.roomOption {
+    width: 15vw;
+}
+.bookBtnHome {
+    background-color: rgba(255, 0, 0, 0.705);
+    border: none;
+    padding: 5px 15px;
+    color: #fff;
+    text-align: center;
+    margin: 50px 0px;
+    font-size: 1.5vw;
+}
+
+.marginOption {
+    margin-left: 2vw;
+}
+
+
+@media (max-width: 768px) {
+    .roomSearchWrapper {
+        width: 60vw;
+    }
+    .srcName {
+        font-size: 3vw;
+    }
+    .bookBtnHome {
+        font-size: 3vw;
+    }
+}
+
+@media (max-width: 598px) {
+    .roomSearchWrapper {
+        width: 80vw;
+    }
+    .bookBtnHome {
+        font-size: 6vw;
+    }
+}
+
+
+
+
+.headingOfExperiance {
+    font-size: 3vw;
+    margin-bottom: 10px;
+    color :rgb(179, 58, 58);
+    
+}
+
+.headingOfExperiance::after {
+    content: "";
+    display: block;
+    width: 30%;
+    height: 3px;
+    background-color: rgb(179, 58, 58);
+    margin: 10px auto;
+}
+
+@media (max-width: 768px) {
+    .headingOfExperiance {
+        font-size: 6vw;
+    }
+}
+.numInfoWrapper {
+    background: linear-gradient(0deg,rgba(0,0,0,0.5) 0%,rgba(0,0,0,0.5)), url("../../Assets/Hotel4.jpg");
+    width: 100%;
+    color: #fff;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 80px 0px;
+    background-attachment: fixed;
+}
+
+.numInfoWrapper  {
+    margin-top: 10px;
+     font-size: 5vw !important;
 }

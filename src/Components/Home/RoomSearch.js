@@ -5,9 +5,10 @@ const RoomSearch = () => {
     <div className='container text-center'>
      <div className='roomSearchWrapper'>
      <div className='d-flex'>
-     <p className='mt-2'> City </p> 
+     <div className='d-flex marginOption'>
+     <p className='mt-2 srcName'> City </p> 
 
-     <select className='form-control'>
+     <select className=' roomOption mt-1 ml-2'>
      <option value="dhaka"> Dhaka</option>
      <option value="chittagong"> Chittagong</option>
      <option value="cox's Bazar"> Cox's Bazar</option>
@@ -15,14 +16,16 @@ const RoomSearch = () => {
      <option value="khulna"> Khulna</option>
      <option value="rajshahi"> Shylate</option>
      </select>
-
-     <p>Select Room</p>
-     <select className='form-control'>
+     </div>
+     <div className='d-flex '>
+     <p style={{display : "inline-block"}} className="mt-2 ml-2 srcName">Select Room</p>
+     <select className=' roomOption mt-1 ml-2'>
      <option value="1"> 1</option>
      <option value="2"> 2</option>
      <option value="3"> 3</option>
      <option value="4"> 4</option>
      </select>
+     </div>
      <button className='srcBtn'><i class="fa fa-search" aria-hidden="true"></i></button>
      </div>
      </div>
