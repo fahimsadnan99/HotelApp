@@ -74,3 +74,33 @@
     background-color: rgba(17, 16, 16, 0.76);
     color: #fff;
 }
+
+.footerLink ul li {
+    list-style-type: none;
+    color: #fff;
+}
+
+.footerLink ul li .footerLink {
+    color: #fff;
+}
+
+.socialLink {
+    display: flex;
+    justify-content: center;
+}
+
+.socialLink i {
+    background-color: rgb(202, 69, 69);
+    color: #fff;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 10px;
+    font-size: 30px;
+}
+
+.copyright {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}

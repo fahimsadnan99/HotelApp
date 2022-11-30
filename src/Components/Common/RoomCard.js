@@ -1,10 +1,15 @@
 import React from 'react'
 import ROOMOne from "../../Assets/room4.jpg"
 import "./style.css"
+import { useNavigate } from "react-router-dom";
 
 const RoomCard = () => {
+  const navigate = useNavigate();
+  
+
+ 
   return (
-    <div className='cardWrapper'>
+    <div className='cardWrapper' onClick={()=> navigate("/room/1")}>
     <div>
       
     <div className='imgWrapperOfCardWrapper'>

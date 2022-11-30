@@ -5,6 +5,7 @@ import Signin from "../Pages/Signin"
 import Signup from "../Pages/Signup"
 import {createBrowserRouter} from "react-router-dom"
 import App from "../App"
+import SingleRoom from "../Pages/Room/SingleRoom"
 
 
 
@@ -20,6 +21,10 @@ import App from "../App"
             {
                 path : "/room",
                 element : <Room></Room>
+            },
+            {
+                path : "/room/:id",
+                element : <SingleRoom></SingleRoom>
             },
             {
                 path : "/dashboard",
