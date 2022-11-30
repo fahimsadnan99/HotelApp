@@ -20,7 +20,7 @@
 }  
 .imgWrapperOfCardWrapper .cityClass {
     position: absolute;
-  background-color: rgba(255, 0, 0, 0.705) !important;
+  background-color: rgba(0, 0, 0, 0.952) !important;
   bottom: 0;
   left: 0;
 
@@ -38,6 +38,7 @@ font-family: 'Chakra Petch', sans-serif;
     font-weight: 700;
     padding: 10px 0px;
     text-align: start !important;
+    color: black;
 }
 
 

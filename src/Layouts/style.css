@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@600&display=swap');
 .navbarWrapper {
-    background-color: rgba(187, 54, 54, 0.658);
+    background-color: rgba(2, 0, 1, 0.897);
     color: #fff;
     position: fixed;
     width: 100%;
@@ -66,4 +66,11 @@
         font-size: 5vw;
         width: 40vw;
     }
+}
+
+
+.footerWrapper {
+    padding: 50px;
+    background-color: rgba(17, 16, 16, 0.76);
+    color: #fff;
 }

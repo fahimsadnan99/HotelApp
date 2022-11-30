@@ -57,7 +57,7 @@
     text-align: center;
     padding: 0.5vw;
     margin-bottom: 0 auto;
-    border-radius: 40px;
+    border-radius: 0px;
     width: 50vw;
    
     font-family: 'Chakra Petch', sans-serif;
@@ -67,7 +67,7 @@
     text-align: center;
     font-weight: 600 !important;
     
-    box-shadow: 0px 2px 10px  black;
+   
     margin: 30px auto;
   
     
@@ -95,7 +95,7 @@
     width: 15vw;
 }
 .bookBtnHome {
-    background-color: rgba(255, 0, 0, 0.705);
+    background-color: rgb(0, 0, 0);
     border: none;
     padding: 5px 15px;
     color: #fff;
@@ -131,12 +131,37 @@
 }
 
 
+.whyCard {
+    
+    border: 1px solid rgb(179, 58, 58);
+    padding: 10px;
+   transition: all 0.5s;
+    
+}
+.whyCard p {
+    margin-top: 10px;
+    color: black !important;
+}
+.whyCard:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+.whyCard i {
+    font-size: 5vw;
+    margin-top: 30px;
+    color: rgb(179, 58, 58);
+    
+} 
 
-
+@media (max-width: 768px) {
+    .whyCard i {
+        font-size: 10vw;
+    }
+}
 .headingOfExperiance {
     font-size: 3vw;
     margin-bottom: 10px;
-    color :rgb(179, 58, 58);
+    color :rgb(0, 0, 0);
     
 }
 
@@ -148,7 +173,15 @@
     background-color: rgb(179, 58, 58);
     margin: 10px auto;
 }
-
+.experianceImg1 {
+    width: 50%;
+    height: 300px;
+}
+.experianceImg2 {
+    width: 50%;
+    height: 300px;
+    margin-top: 80px;
+}
 @media (max-width: 768px) {
     .headingOfExperiance {
         font-size: 6vw;
@@ -168,3 +201,148 @@
     margin-top: 10px;
      font-size: 5vw !important;
 }
+
+
+.MissonAndVisonWrapper {
+    position: relative;
+    background-color: #fff;
+   
+}
+
+.MissonAndVisonWrapper::after {
+    content: "";
+    width: 10px;
+    height: 100vh;
+    background-color: rgb(179, 58, 58);
+    display: block;
+    margin: 0 auto;
+    border-radius: 30px;
+    margin-top: 40px;
+   
+}
+
+.misson1,.misson2,.misson3,.misson4 {
+    width: 30vw;
+    /* From https://css.glass */
+background: rgba(255, 10, 10, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 10, 10, 0.3);
+padding: 10px;
+color: black;
+text-align: justify;
+height: 100px;
+z-index: 1;
+
+}
+
+.MissonAndVisonWrapper .misson1,.misson2,.misson3,.misson4 {
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    
+    
+}
+
+
+
+.MissonAndVisonWrapper .misson1::after , .misson2::after,.misson3::after,.misson4::after {
+    content: "";
+    position: absolute;
+    width: 9vw;
+    height: 10px;
+    background-color: rgb(179, 58, 58);
+    display: block;
+    
+    top: 50px;
+    right: -10vw;
+}
+
+.MissonAndVisonWrapper .misson1::before ,.misson2::before ,.misson3::before, .misson4::before {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(179, 58, 58);
+    display: block;
+    
+    top: 45px;
+    right: -15px;
+}
+
+
+.MissonAndVisonWrapper .misson2,.misson4 {
+    top: 40%;
+    left: 58vw;
+    height: 130px;
+}
+
+.MissonAndVisonWrapper .misson2::after {
+    top: 50px;
+    left: -120px;
+    width: 120px;
+}
+
+.MissonAndVisonWrapper .misson2::before {
+    top: 45px;
+    left: -15px;
+}
+
+.MissonAndVisonWrapper .misson3 {
+    top: 55%;
+    height: 150px;
+}
+
+.MissonAndVisonWrapper .misson3::after {
+    top: 75px;
+}
+.MissonAndVisonWrapper .misson3::before {
+    top: 70px;
+}
+
+.MissonAndVisonWrapper .misson4 {
+    top: 75%;
+    
+    height: 135px;
+}
+.MissonAndVisonWrapper .misson4::before {
+    top: 55px;
+    left: -15px;
+}
+
+.MissonAndVisonWrapper .misson4::after {
+    top: 60px;
+    left: -120px;
+    width: 120px;
+}
+
+.listOnMission {
+  padding: 20px;
+    text-align: start;
+}
+.listOnMission p {
+    margin-top: 30px;
+}
+@media (max-width: 1280px) {
+    
+  #missionWrapperLarge {
+    display: none;
+  }
+    .MissonAndVisonWrapper::after {
+        display: none;
+    }
+
+    
+}
+
+@media (min-width: 1281px) {
+    
+    .missionWrapperMiduam {
+        display: none;
+    }
+  
+      
+  }

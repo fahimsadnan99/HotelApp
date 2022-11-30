@@ -4,6 +4,7 @@ import MissonAndVison from '../../Components/Home/MissonAndVison'
 import NumberOfInfo from '../../Components/Home/NumberOfInfo'
 import RoomsDisplay from '../../Components/Home/RoomsDisplay'
 import RoomSearch from '../../Components/Home/RoomSearch'
+import WhyEasyBook from '../../Components/Home/WhyEasyBook'
 import "./style.css"
 
 const Home = () => {
@@ -21,6 +22,7 @@ const Home = () => {
 
     <RoomSearch></RoomSearch>
     <RoomsDisplay></RoomsDisplay>
+    <WhyEasyBook></WhyEasyBook>
     <Experiance></Experiance>
     <NumberOfInfo></NumberOfInfo>
     <MissonAndVison></MissonAndVison>
