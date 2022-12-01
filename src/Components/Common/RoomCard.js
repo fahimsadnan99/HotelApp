@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import ROOMOne from "../../Assets/room4.jpg"
 import "./style.css"
 import { useNavigate } from "react-router-dom";
@@ -6,8 +6,9 @@ import { useNavigate } from "react-router-dom";
 const RoomCard = () => {
   const navigate = useNavigate();
   
+  
 
- 
+
   return (
     <div className='cardWrapper' onClick={()=> navigate("/room/1")}>
     <div>
@@ -29,8 +30,9 @@ const RoomCard = () => {
         <div className='d-flex'>
         <p className=''>Ac : No</p>
         <p className='ml-5'>Pet : No</p>
-        </div>
         
+        </div>
+        <h5 style={{color : "red", display : "block", padding : "5px 0px"}}>Price : 50$ Per Night</h5>
         
         </div>
         </div>

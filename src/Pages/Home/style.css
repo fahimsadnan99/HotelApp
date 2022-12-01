@@ -47,7 +47,43 @@
     transition: all 0.5s;
 }
 
+@media (max-width:768px) {
+    .allElements .heroText1 {
+        font-size: 8.5vw;
+    }
+    .allElements .heroText2 {
+        text-align: center;
+        font-size: 3.5vw;
+    }
+    .heroWrapper .allElements {
+        left: 5%;
+    }
+    .heroWrapper {
+        height: 80vh;
+    }
+}
 
+@media (max-width:580px) {
+    .allElements .heroText1 {
+        font-size: 9vw;
+        
+    }
+    .allElements .heroText2 {
+        text-align: center;
+        font-size: 5vw;
+        margin-top: 10px;
+    }
+    .heroBtn {
+        font-size: 4vw;
+    }
+    .heroWrapper .allElements {
+        left: 5%;
+    }
+
+    .heroWrapper {
+        height: 70vh;
+    }
+}
 
 /* ----------------ROOM SEARCH SECTION -------- */
 
