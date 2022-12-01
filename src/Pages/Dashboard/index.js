@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const Deshboard = () => {
-  return (
-    <div>Deshboard</div>
-  )
-}
+  return <div>Fahim Deshboard</div>;
+};
 
-export default Deshboard
+export default Deshboard;
